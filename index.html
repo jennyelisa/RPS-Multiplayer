@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
@@ -13,11 +13,46 @@
 <body>
 
     <div>
-    <input type="form" placeholder="Name" id="input-box">
-    <button id="">Enter</button>
+        <!-- <p>Enter your name below.</p> -->
+        <input type="form" placeholder="Name" id="input-box">
+        <button id="submit">Enter</button>
     </div>
 
-    <div id="game-board">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" id="box1">
+                <div class="card-header">
+                    Player 1
+                </div>
+                <div class="card-body">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" id="box2">
+                <div class="card-header">
+                    Results
+                </div>
+                <div class="card-body">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" id="box3">
+                <div class="card-header">
+                    Player 2
+                </div>
+                <div class="card-body">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- <div id="game-board">
 
         <div id="box1">
             <div class="header">Player 1</div>
@@ -33,7 +68,7 @@
         </div>
     
 
-    </div>
+    </div> -->
 
 
 

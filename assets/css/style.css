@@ -4,28 +4,15 @@
     
 }
 
-#box1 {
-    border: 2px solid blue;
-    width: 30%;
-    height: 200px; 
-    margin-top: 5%;
-    margin-left: 2%;
+.container {
+    margin-top:5%;
 }
 
-#box2 {
-    border: 2px solid blue;
-    width: 30%;
-    height: 200px;
-    margin-left: 35%;
-    margin-top: -16.5%;
-    
+#box1 .card-header {
+    background-color: lavender;
 }
 
-#box3 {
-    border: 2px solid blue;
-    width: 30%;
-    height: 200px;
-    float: right;   
-    margin-top: -16.5%;
-    margin-right: 2%
+#box3 .card-header {
+    background-color: lightgreen;
 }
+
